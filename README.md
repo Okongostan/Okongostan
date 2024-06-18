@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 
-        }
-    </style>
 </head>
 <body>
     <header>
@@ -37,19 +35,6 @@
                 <button type="submit">Send</button>
             </form>
         </section>
-    </main>
-    <footer>
-        <p>&copy; 2024. All rights reserved.</p>
-    </footer>
-
-    <script>
-        function showSection(sectionId) {
-            document.querySelectorAll('section').forEach(section => {
-                section.classList.remove('active');
-            });
-            document.getElementById(sectionId).classList.add('active');
-        }
-    </script>
 </body>
 </html>
 
